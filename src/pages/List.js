@@ -1,13 +1,17 @@
-import React from "react"
+import React, { Component } from "react"
 
-function List(props) {
+class List extends Component {
+    state = {
 
-    return (
-        <div >
-            <p> List</p>
-        </div >
-    )
-
+    }
+    render() {
+        return (
+            <div>
+                List
+            </div>
+        )
+    }
 }
+
 
 export default List;

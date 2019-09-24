@@ -1,13 +1,17 @@
-import React from "react"
+import React, { Component } from "react"
 
-function Mine(props) {
+class Mine extends Component {
+    state = {
 
-    return (
-        <div>
-            <p>Mine</p>
-        </div>
-    )
-
+    }
+    render() {
+        return (
+            <div>
+                mine
+            </div>
+        )
+    }
 }
+
 
 export default Mine;

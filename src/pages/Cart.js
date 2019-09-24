@@ -1,13 +1,16 @@
-import React from "react"
+import React, { Component } from "react"
 
-function Cart(props) {
+class Cart extends Component {
+    state = {
 
-    return (
-        <div>
-            <p>Cart</p>
-        </div>
-    )
-
+    }
+    render() {
+        return (
+            <div>
+                Cart
+            </div>
+        )
+    }
 }
 
 export default Cart;

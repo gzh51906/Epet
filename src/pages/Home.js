@@ -1,13 +1,20 @@
-import React from "react"
+import React, { Component } from "react"
+import { SearchBar, Icon } from 'antd-mobile'
+import { nonsense } from "antd-mobile/lib/picker";
+class Home extends Component {
+    state = {
 
-function Home(props) {
+    }
+    render() {
+        return (
+            <div>
+                <input type="text" style={{ width: '70%', margin: 'auto', borderRadius: 10, fontSize: 12, height: 20 }} />
 
-    return (
-        <div>
-            <p>home</p>
-        </div>
-    )
 
+            </div>
+        )
+    }
 }
 
-export default Home;
+
+export default Home
