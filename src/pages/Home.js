@@ -1,20 +1,43 @@
 import React, { Component } from "react"
-import { SearchBar, Icon } from 'antd-mobile'
-import { nonsense } from "antd-mobile/lib/picker";
+import { Flex } from 'antd-mobile';
+import '../style/home.css'
 class Home extends Component {
     state = {
 
     }
+
+
+
     render() {
         return (
-            <div>
-                <input type="text" style={{ width: '70%', margin: 'auto', borderRadius: 10, fontSize: 12, height: 20 }} />
+            <>
+
+                <div className="flex-container">
+
+                    <Flex>
+                        <Flex.Item className="head">
+                            <input type="text" className="input" placeholder="请输入搜索内容" />
+                            <ul className="ul1">
+                                <li style={{ fontSize: 20, fontWeight: 'bold' }}>精选</li>
+                                <li>进口狗粮</li>
+                                <li>国产狗粮</li>
+                                <li>内外驱虫</li>
+                                <li>无官护理</li>
+                            </ul>
+                        </Flex.Item>
+                    </Flex>
+
+                </div>
 
 
-            </div>
+
+
+            </>
         )
     }
 }
+
+
 
 
 export default Home

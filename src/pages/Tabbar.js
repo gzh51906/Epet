@@ -32,7 +32,7 @@ class Tabber extends Component {
                         tintColor="#33A3F4"             //已选中字体颜色
                         barTintColor="white"            //背景颜色
                         hidden={this.state.hidden}
-                        style={{display:"flex"}}
+                        style={{ display: "flex" }}
                     >
                         <TabBar.Item
                             // title="首页"
