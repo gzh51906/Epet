@@ -1,0 +1,173 @@
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1569163734,
+    "hash": "",
+    "epet_site": "epet",
+    "topadv": {},
+    "show_history": 0,
+    "cate_list": [
+        {
+            "title": "狗狗服饰",
+            "rigth_img": {
+                "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+                "target": {
+                    "mode": "goods_list",
+                    "param": "cateid:55"
+                },
+                "img_size": "138x30"
+            },
+            "type": 0,
+            "flag_icon": "",
+            "list": [
+                {
+                    "id_param": "cateid_4310",
+                    "name": "断码反季",
+                    "photo": "https://img2.epetbar.com/nowater/2017-10/10/16/d55b1ff4802aa8b6eb402c6292022084.jpg"
+                },
+                {
+                    "id_param": "cateid_337",
+                    "name": "精美配饰",
+                    "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/1d55d100e176bd571e4b0fd85604a14d.jpg"
+                },
+                {
+                    "id_param": "cateid_4373",
+                    "name": "御寒棉服",
+                    "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/556a307689a1bda2299be27956015cd4.jpg"
+                },
+                {
+                    "id_param": "cateid_336",
+                    "name": "四季雨衣",
+                    "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/7feeef10bab3d2e8df8a9149e0cb7c70.jpg"
+                },
+                {
+                    "id_param": "cateid_4372",
+                    "name": "时尚卫衣",
+                    "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/332cb407ae3df288233aa8e46507ccde.jpg"
+                },
+                {
+                    "id_param": "cateid_4371",
+                    "name": "潮流四脚",
+                    "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/51e8e71ae5afe739039bf46ff5057c8e.jpg"
+                },
+                {
+                    "id_param": "cateid_4374",
+                    "name": "针织毛衣",
+                    "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/b537f6235f3cab502e8703699150ede4.jpg"
+                },
+                {
+                    "id_param": "cateid_4375",
+                    "name": "甜美淑女",
+                    "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/0071af1e77ccd8f4d7872790aa92479b.jpg"
+                }
+            ]
+        },
+        {
+            "title": "热门品牌",
+            "rigth_img": {
+                "image": "",
+                "img_size": "",
+                "target": {}
+            },
+            "type": 2,
+            "flag_icon": "",
+            "list": [
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537405585.png",
+                    "name": "Opawz",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "1424"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537406580.png",
+                    "name": "拉夫威尔RW",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "1046"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537406109.png",
+                    "name": "彼痞客ppark",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "972"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-01/21/10/ec41f0dc6478fd51ffe733c6cba49592.jpg",
+                    "name": "韵新Wincent",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "912"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-10/20/12/3f7158a46ddf789d5ab39495cbc7a585.jpg",
+                    "name": "贝欧BEOW",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "906"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/24/aba86b0caa1438bffcfc810b1bab9ee7.jpg",
+                    "name": "Touchdog",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "152"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-09/16/14/1181716b37eecd340407f7991efb297e.jpg",
+                    "name": "KOJIMA",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "131"
+                    }
+                },
+                {
+                    "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+                    "name": "",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_list",
+                        "param": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "sensor": {
+        "page_type": "分类-分类",
+        "page_pam": "狗狗服饰",
+        "big_type": "狗狗"
+    },
+    "list_flag": 1,
+    "alert_target": [
+        {
+            "text": "我知道了",
+            "target": ""
+        }
+    ]
+}

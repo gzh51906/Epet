@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    height: 3em;
+    font-size: 13px;
+    line-height: 3em;
+    user-select: none;
+}
+
+li.active {
+    color: #41C856;
+    background-color: #f3f4f5;
+}

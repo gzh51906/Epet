@@ -1,0 +1,61 @@
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1569163641,
+    "hash": "",
+    "epet_site": "epet",
+    "topadv": {},
+    "show_history": 0,
+    "cate_list": [
+        {
+            "title": "清凉消暑",
+            "rigth_img": {
+                "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+                "target": {
+                    "mode": "goods_list",
+                    "param": "cateid:4356"
+                },
+                "img_size": "138x30"
+            },
+            "type": 0,
+            "flag_icon": "",
+            "list": [
+                {
+                    "id_param": "cateid_4360",
+                    "name": "浮水玩具",
+                    "photo": "https://img2.epetbar.com/nowater/2018-07/06/19/7fea3df5bf3386293c61f4c68f4ac6ac.jpg"
+                },
+                {
+                    "id_param": "cateid_4359",
+                    "name": "补水工具",
+                    "photo": "https://img2.epetbar.com/nowater/2018-07/06/19/65eb7df87f3c5f54216adbcf823ceaa8.jpg"
+                },
+                {
+                    "id_param": "cateid_4358",
+                    "name": "清凉床垫",
+                    "photo": "https://img2.epetbar.com/nowater/2018-07/06/19/9acb012e805b5a112466ab63604d3fbb.jpg"
+                },
+                {
+                    "id_param": "cateid_4357",
+                    "name": "清凉窝窝",
+                    "photo": "https://img2.epetbar.com/nowater/2018-07/06/19/4479e09f45506062f59739eaad58344a.jpg"
+                }
+            ]
+        }
+    ],
+    "sensor": {
+        "page_type": "分类-分类",
+        "page_pam": "清凉消暑",
+        "big_type": "狗狗"
+    },
+    "list_flag": 1,
+    "alert_target": [
+        {
+            "text": "我知道了",
+            "target": ""
+        }
+    ]
+}

@@ -7,6 +7,8 @@ import Notfound from './pages/Notfound'
 import Img from './pages/Mine/img'
 import Login from './pages/login'
 import Reg from './pages/reg'
+import Goodslist from './pages/goodslist'
+import Goodsstore from './pages/goodsstore'
 class App extends Component {
   render() {
     return (
@@ -18,6 +20,8 @@ class App extends Component {
           <Route path='/img' component={Img} />
           <Route path='/login' component={Login} />
           <Route path='/reg' component={Reg} />
+          <Route path='/goodsstore/:id' component={Goodsstore} />
+          <Route path='/goodslist/:id' component={Goodslist} />
           <Route path="/notfound" component={Notfound} />
 
           <Redirect from="/" to="/tabbar/home" exact />

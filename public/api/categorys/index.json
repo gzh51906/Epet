@@ -1,0 +1,71 @@
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1569161445,
+    "hash": "",
+    "epet_site": "epet",
+    "categorys": [{
+            "cateid": "1",
+            "name": "为您推荐"
+        },
+        {
+            "cateid": "2",
+            "name": "E宠国际"
+        },
+        {
+            "cateid": "3",
+            "name": "狗狗主粮"
+        },
+        {
+            "cateid": "4",
+            "name": "狗狗零食"
+        },
+        {
+            "cateid": "5",
+            "name": "狗狗玩具"
+        },
+        {
+            "cateid": "6",
+            "name": "狗狗清洁"
+        },
+        {
+            "cateid": "7",
+            "name": "狗狗保健"
+        },
+        {
+            "cateid": "8",
+            "name": "狗狗护理"
+        },
+        {
+            "cateid": "9",
+            "name": "狗狗生活"
+        },
+        {
+            "cateid": "10",
+            "name": "狗狗牵引"
+        },
+        {
+            "cateid": "11",
+            "name": "出游洗澡"
+        },
+        {
+            "cateid": "12",
+            "name": "清凉消暑"
+        },
+        {
+            "cateid": "13",
+            "name": "狗狗服饰"
+        },
+        {
+            "cateid": "14",
+            "name": "狗狗美容"
+        }
+    ],
+    "alert_target": [{
+        "text": "我知道了",
+        "target": ""
+    }]
+}
