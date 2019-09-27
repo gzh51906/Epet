@@ -5,8 +5,13 @@ import Tabbar from './pages/Tabbar'
 import Cart from './pages/Cart'
 import Notfound from './pages/Notfound'
 import Details from './pages/Details'
-import Goodslist from './pages/Goodslist'
+import Goodslistl from './pages/Goodslistl'
 
+import Img from './pages/Mine/img'
+import Login from './pages/login'
+import Reg from './pages/reg'
+import Goodslist from './pages/goodslist'
+import Goodsstore from './pages/goodsstore'
 class App extends Component {
   render() {
     return (
@@ -15,9 +20,14 @@ class App extends Component {
         < Switch >
           <Route path='/cart' component={Cart} />
           <Route path='/tabbar' component={Tabbar} />
+          <Route path='/img' component={Img} />
+          <Route path='/login' component={Login} />
+          <Route path='/reg' component={Reg} />
+          <Route path='/goodsstore/:id' component={Goodsstore} />
+          <Route path='/goodslist/:id' component={Goodslist} />
           <Route path="/notfound" component={Notfound} />
           <Route path="/details/:id" component={Details} /> 
-          <Route path="/Goodslist/" component={Goodslist} /> 
+          <Route path="/Goodslistl" component={Goodslistl} /> 
           <Redirect from="/" to="/tabbar/home" exact />
           <Redirect from="/home" to="/tabbar/home" exact />
           <Redirect from="/list" to="/tabbar/list" exact />
