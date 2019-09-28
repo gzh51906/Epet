@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Home from './Home'
 import List from './List'
-import Mine from './Mine'
+import Mine from './Mine/index.jsx'
 import Notfound from './Notfound'
 import { TabBar } from 'antd-mobile';
 import img from '../images/nav.png'
@@ -26,7 +26,7 @@ class Tabber extends Component {
         return (
             <div>
 
-                < div style={{ position: 'fixed', width: '100%', bottom: '0' }}>
+                < div style={{ position: 'fixed', width: '100%', bottom: '0', zIndex: 10000 }}>
                     <TabBar
                         unselectedTintColor="#949494"   //未选中字体颜色
                         tintColor="#33A3F4"             //已选中字体颜色

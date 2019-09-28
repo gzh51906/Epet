@@ -1,10 +1,10 @@
-.clear {
+.cart .clear {
     clear: both;
     position: relative;
     top: 0
 }
 
-.clearfix {
+.cart .clearfix {
     content: "";
     display: block;
     clear: both;
@@ -13,7 +13,7 @@
     visibility: hidden;
 }
 
-.am-list-body::before {
+.cart .am-list-body::before {
     content: "";
     display: block;
     clear: both;
@@ -22,7 +22,7 @@
     visibility: hidden;
 }
 
-.margin {
+.cart .margin {
     padding-top: 10px
 }
 
@@ -30,30 +30,30 @@
      max-width: 35% 
 } */
 
-.right {
+.cart .right {
     width: 65%
 }
 
-.fr {
+.cart .fr {
     float: right;
 }
 
-.fl {
+.cart .fl {
     float: left;
 }
 
 
-.vertical {
+.cart .vertical {
     vertical-align: middle
 }
 
-.image {
+.cart .image {
     width: 85px;
     height: 85px;
     vertical-align: middle
 }
 
-.c333 {
+.cart .c333 {
     color: #333;
     overflow: hidden;
     font-size: 12px;
@@ -65,31 +65,31 @@
     margin-top: 0;
 }
 
-.c89 {
+.cart .c89 {
     clear: both;
     color: #898989;
 }
 
 
-.mr3 {
+.cart .mr3 {
     color: #f03e3e;
 
 }
 
-.ft12 {
+.cart .ft12 {
     font-size: 1.2em;
 }
 
-.ft1 {
+.cart .ft1 {
     font-size: 1.2em;
 }
 
 
-.bold {
+.cart .bold {
     font-weight: bold;
 }
 
-.buynum-wrap {
+.cart .buynum-wrap {
     border-radius: 30px;
     width: 96px;
     border: none;
@@ -100,7 +100,7 @@
 
 
 
-.buynum-text {
+.cart .buynum-text {
     text-align: center;
     /* border-top: 1px solid #898989; */
     border: none;
@@ -110,7 +110,7 @@
     color: #898989;
 }
 
-.lrb {
+.cart .lrb {
     vertical-align: middle;
     width: 28px;
     text-align: center;
@@ -118,17 +118,17 @@
 
 }
 
-.lb {
+.cart .lb {
     /* border-right: 0; */
     border-radius: 5px 0 0 5px;
 }
 
-.rb {
+.cart .rb {
     /* border-left: 0; */
     border-radius: 0 5px 5px 0;
 }
 
-.btn {
+.cart .btn {
     margin-top: 10px;
     border-radius: 5px;
     border: 1px solid #898989;
@@ -136,7 +136,7 @@
 }
 
 
-.head {
+.cart .head {
     position: fixed;
     top: 0;
     width: 100%;
@@ -148,7 +148,7 @@
     z-index: 100;
 }
 
-.footer {
+.cart .footer {
     position: fixed;
     bottom: 0;
     padding: 10px;
@@ -160,6 +160,6 @@
     line-height: 40px;
 }
 
-.footer button {
+.cart .footer button {
     margin-right: 20px;
 }
