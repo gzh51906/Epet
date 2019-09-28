@@ -1,0 +1,1613 @@
+{
+    "msg": "", 
+    "code": "succeed", 
+    "login_status": 0, 
+    "mall_uid": "epet_0", 
+    "mall_user": "", 
+    "sys_time": 1569502270, 
+    "hash": "", 
+    "epet_site": "epet", 
+    "sensor": {
+        "search_result_number": {
+            "dog": 127, 
+            "cat": 1, 
+            "total": 128
+        }, 
+        "search_keywords": ""
+    }, 
+    "auto_correct_tips": { }, 
+    "activity_info": { }, 
+    "list": [
+        {
+            "gspid": 44760, 
+            "gid": 146751, 
+            "cateid": 413, 
+            "subject": "红狗RedDog 犬用营养膏 120g ", 
+            "presubject": "浓缩营养 提高免疫力", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190911150738_95561.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "85.00", 
+            "market_price": "95.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 380, 
+            "order": "", 
+            "replys": 18115, 
+            "asks": 1698, 
+            "sold": "售出:7.98w", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [
+                {
+                    "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2019041202", 
+                    "img_size": "60X30", 
+                    "target": { }
+                }
+            ], 
+            "activityIcons": [
+                {
+                    "icon_char": "促", 
+                    "icon_color": "#4FC0E8"
+                }
+            ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 43963, 
+            "gid": 145832, 
+            "cateid": 413, 
+            "subject": "英国MAG 优质配方羊奶粉 适用成幼犬400g ", 
+            "presubject": "猫犬通用 不易上火 DHA益生菌配方促智力 益生菌配方护肠胃 益智活力", 
+            "formats": " 400g", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190428144239_433370.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "95.00", 
+            "market_price": "114.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 145832, 
+            "brandid": 830, 
+            "order": "", 
+            "replys": 13562, 
+            "asks": 4404, 
+            "sold": "售出:5.16w", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 6570, 
+            "gid": 106570, 
+            "cateid": 413, 
+            "subject": "BOTH 山羊奶粉 450g", 
+            "presubject": "补充营养 促进骨骼发育 增强免疫力", 
+            "formats": " 450g", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190812171301_288604.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "118.00", 
+            "market_price": "168.60", 
+            "youhui_price": 88.2, 
+            "fm_shareid": 106570, 
+            "brandid": 114, 
+            "order": "", 
+            "replys": 21028, 
+            "asks": 6265, 
+            "sold": "售出:7.03w", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [
+                {
+                    "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2019041202", 
+                    "img_size": "60X30", 
+                    "target": { }
+                }
+            ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 68079, 
+            "gid": 174146, 
+            "cateid": 413, 
+            "subject": "美国麦德氏 IN-Basic四合一配方羊奶粉 300g", 
+            "presubject": "天然乳钙 低乳糖 解决腹泻困扰 新老包装随机发", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/201904281501053_637227.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "80.00", 
+            "market_price": "100.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 186, 
+            "order": "", 
+            "replys": 3625, 
+            "asks": 180, 
+            "sold": "售出:1.42w", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "https://img2.epetbar.com/nowater/2016-08/12/16/143b7ea7399146885f19d11af44d5a27.jpg", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 12908, 
+            "gid": 112908, 
+            "cateid": 413, 
+            "subject": "维斯康VitsCan 犬用 速补综合营养膏 120.5g", 
+            "presubject": "迅速补充营养 适合幼犬、孕期、哺乳期、术后恢复期及应激反应期的犬只", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190716135552_446268.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "65.00", 
+            "market_price": "81.50", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 235, 
+            "order": "", 
+            "replys": 5905, 
+            "asks": 939, 
+            "sold": "售出:2.2w", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 49192, 
+            "gid": 151444, 
+            "cateid": 413, 
+            "subject": "谷登GOLDEN 犬用金装优加营养膏 120g ", 
+            "presubject": "多重优质营养 ", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/upload_file_20193212937.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "68.00", 
+            "market_price": "81.60", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 829, 
+            "order": "", 
+            "replys": 5438, 
+            "asks": 697, 
+            "sold": "售出:2.03w", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 67458, 
+            "gid": 173455, 
+            "cateid": 413, 
+            "subject": "维斯康VitsCan V+系列犬用高能多糖免疫速补营养膏 120.5g", 
+            "presubject": "缓解虚弱 远离疾病 增强免疫", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/2019052201001047_570130.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "88.00", 
+            "market_price": "105.60", 
+            "youhui_price": 0, 
+            "fm_shareid": 173455, 
+            "brandid": 235, 
+            "order": "", 
+            "replys": 560, 
+            "asks": 49, 
+            "sold": "售出:1883", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 64484, 
+            "gid": 170125, 
+            "cateid": 413, 
+            "subject": "美国麦德氏 IN-Vet犬用医护营养膏 55g ", 
+            "presubject": "快速补充能量 有助于提升免疫力", 
+            "formats": " 55g", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2016-07/19/12/48ac32fd263638f044e30222eaa3a274.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "52.00", 
+            "market_price": "65.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 170125, 
+            "brandid": 186, 
+            "order": "", 
+            "replys": 3627, 
+            "asks": 160, 
+            "sold": "售出:1.22w", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 43970, 
+            "gid": 157478, 
+            "cateid": 413, 
+            "subject": "谷登GOLDEN 全犬羊奶粉 200g ", 
+            "presubject": " 精选山羊纯正羊奶 富含多重营养 适合宠物狗狗猫咪奶粉", 
+            "formats": " 200g", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190428145911_3655.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "68.00", 
+            "market_price": "78.00", 
+            "youhui_price": 57.2, 
+            "fm_shareid": 220446, 
+            "brandid": 829, 
+            "order": "", 
+            "replys": 4195, 
+            "asks": 461, 
+            "sold": "售出:6719", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 19279, 
+            "gid": 119340, 
+            "cateid": 413, 
+            "subject": "新宠之康 犬用内销型羊奶粉 260g ", 
+            "presubject": "最新配方 特别添加肠道益生菌", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2014-11/18/6a696685a847c1e3e617fb44c2f96eb9.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "25.00", 
+            "market_price": "30.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 71, 
+            "order": "", 
+            "replys": 2841, 
+            "asks": 670, 
+            "sold": "售出:1.14w", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(96%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 135254, 
+            "gid": 242110, 
+            "cateid": 413, 
+            "subject": "红狗RedDog 免疫离乳膏 120g", 
+            "presubject": "增强免疫 强化体质 营养补身 恰到好处", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/common/upload/commonfile/2019/09/24/0105450_710081.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "98.00", 
+            "market_price": "129.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 380, 
+            "order": "", 
+            "replys": 383, 
+            "asks": 0, 
+            "sold": "售出:1602", 
+            "unit": "套", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(95%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 138057, 
+            "gid": 245030, 
+            "cateid": 413, 
+            "subject": "宠儿香 强力多维营养膏 130g", 
+            "presubject": "改善食欲 增亮毛发 均衡补充 ", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2018-07/16/10/23d75b686d5d942f937f0ba38609ae0d.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "78.00", 
+            "market_price": "93.60", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 58, 
+            "order": "", 
+            "replys": 101, 
+            "asks": 0, 
+            "sold": "售出:356", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 110726, 
+            "gid": 220650, 
+            "cateid": 413, 
+            "subject": "谷登GOLDEN 成长发育伴侣 350g", 
+            "presubject": "补充维生素和微量元素", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/20190428153453_556532.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "98.00", 
+            "market_price": "119.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 829, 
+            "order": "", 
+            "replys": 257, 
+            "asks": 1, 
+            "sold": "售出:816", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(95%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 109357, 
+            "gid": 218991, 
+            "cateid": 413, 
+            "subject": "蒙贝 宠物羊奶粉 400g", 
+            "presubject": "内蒙古原生态奶源 助生长发育 低敏护肠道 易消化吸收", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2017-09/19/11/c35110a929e2ed1b0312f76629874917.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "88.00", 
+            "market_price": "105.60", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 330, 
+            "order": "", 
+            "replys": 469, 
+            "asks": 6, 
+            "sold": "售出:1345", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(94%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [
+                {
+                    "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2019041202", 
+                    "img_size": "60X30", 
+                    "target": { }
+                }
+            ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 64860, 
+            "gid": 170669, 
+            "cateid": 413, 
+            "subject": "维斯康VitsCan V+系列初生幼犬羊奶粉 300g/罐", 
+            "presubject": "新西兰奶源 科学配方 肠胃好吸收", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/2019052201001016_236125.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "138.00", 
+            "market_price": "165.60", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 235, 
+            "order": "", 
+            "replys": 179, 
+            "asks": 16, 
+            "sold": "售出:617", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 148795, 
+            "gid": 256565, 
+            "cateid": 413, 
+            "subject": "多啦小萌 狗用黄金体质营养膏 120g", 
+            "presubject": "美体护肤 清澈亮眼 强智健脑 均衡营养", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/upload_file_20192118593.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "99.00", 
+            "market_price": "120.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 100119, 
+            "order": "", 
+            "replys": 120, 
+            "asks": 0, 
+            "sold": "售出:475", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(95%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 115944, 
+            "gid": 226271, 
+            "cateid": 413, 
+            "subject": "世佳Snausages 幼犬专用益生菌宠物配方奶粉 200g", 
+            "presubject": "益生菌配方 增加幼犬免疫力 独立小包装更方便 ", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2017-11/27/16/591ea125e060b83c6a87a122bbbc8c8a.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "80.00", 
+            "market_price": "96.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 73, 
+            "order": "", 
+            "replys": 110, 
+            "asks": 0, 
+            "sold": "售出:298", 
+            "unit": "盒", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(94%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 19630, 
+            "gid": 119691, 
+            "cateid": 413, 
+            "subject": "美国麦德氏 IN-PLUS日常照护营养系列 犬用速补高能营养膏 120g", 
+            "presubject": "补充能量 增强体力", 
+            "formats": " 120g", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/goods/sales/201908070104354_322109.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "55.00", 
+            "market_price": "70.00", 
+            "youhui_price": 49.5, 
+            "fm_shareid": 119691, 
+            "brandid": 186, 
+            "order": "", 
+            "replys": 3594, 
+            "asks": 280, 
+            "sold": "售出:1.23w", 
+            "unit": "支", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 662, 
+            "gid": 100662, 
+            "cateid": 413, 
+            "subject": "医仕高 犬用补血肝精养血素 29.6ml ", 
+            "presubject": "富含铁剂 促进生血 添加肝精 强化肝脏功能 增强免疫", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2016-03/23/14/cf59dc7689e0e5695e7a45acd041263b.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "75.00", 
+            "market_price": "90.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 100662, 
+            "brandid": 45, 
+            "order": "", 
+            "replys": 1661, 
+            "asks": 526, 
+            "sold": "售出:6490", 
+            "unit": "瓶", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(97%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }, 
+        {
+            "gspid": 80543, 
+            "gid": 187986, 
+            "cateid": 413, 
+            "subject": "新宠之康 幼犬专用羊奶粉 260g", 
+            "presubject": "纯正奶源 接近母乳 添加益生菌 呵护肠道", 
+            "formats": "", 
+            "formats_values": "", 
+            "photo": "https://img2.epetbar.com/2017-06/06/10/52fe5253d6aa9270262efc2f9fe7aad9.jpg", 
+            "cover_img_for_notice": {
+                "img_url": "", 
+                "img_size": ""
+            }, 
+            "sale_price": "35.00", 
+            "market_price": "42.00", 
+            "youhui_price": 0, 
+            "fm_shareid": 0, 
+            "brandid": 71, 
+            "order": "", 
+            "replys": 333, 
+            "asks": 3, 
+            "sold": "售出:1413", 
+            "unit": "罐", 
+            "stockmode": 2, 
+            "stock_now": 1, 
+            "stock": 1, 
+            "isBest": 1, 
+            "real_wid": 1, 
+            "virtual_wid": 1, 
+            "site": 0, 
+            "comments": "互动:(98%好评)", 
+            "dprice": "", 
+            "country_photo": "", 
+            "with_me": "", 
+            "gtype_icon": { }, 
+            "subject_tip": "", 
+            "goods_sign": 0, 
+            "goods_icon": "", 
+            "activityLabels": [ ], 
+            "activityIcons": [ ], 
+            "send_ware": "", 
+            "extend_pam": ""
+        }
+    ], 
+    "window": {
+        "is_show": 0, 
+        "content": [ ]
+    }, 
+    "cateid": "413", 
+    "typeid": 1, 
+    "redword": "", 
+    "goodsrank": [ ], 
+    "total_count": 127, 
+    "total_page": 7, 
+    "filterBoxData": [
+        {
+            "is_quick": 1, 
+            "name": "品牌", 
+            "varname": "brandid", 
+            "rows": [
+                {
+                    "letter": "0", 
+                    "items": [
+                        {
+                            "id": "0", 
+                            "name": "全部", 
+                            "checked": 1
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "A", 
+                    "items": [
+                        {
+                            "id": 1101, 
+                            "name": "安贝AUSPICE", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 2087, 
+                            "name": "安灏AnhooVet", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 846, 
+                            "name": "艾贝儿", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "B", 
+                    "items": [
+                        {
+                            "id": 114, 
+                            "name": "BOTH", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 2046, 
+                            "name": "贝乐芙BELOVED", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 2083, 
+                            "name": "倍贝宠 Pet Baby", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 43, 
+                            "name": "湃特安琪儿", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100361, 
+                            "name": "拜卡", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "C", 
+                    "items": [
+                        {
+                            "id": 58, 
+                            "name": "宠儿香", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "D", 
+                    "items": [
+                        {
+                            "id": 100119, 
+                            "name": "多啦小萌", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "F", 
+                    "items": [
+                        {
+                            "id": 36, 
+                            "name": "发育宝", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "G", 
+                    "items": [
+                        {
+                            "id": 829, 
+                            "name": "谷登GOLDEN", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100022, 
+                            "name": "盖夫CAREGIVER", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "H", 
+                    "items": [
+                        {
+                            "id": 380, 
+                            "name": "红狗RedDog", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 2044, 
+                            "name": "海瑞特HARRIET", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "I", 
+                    "items": [
+                        {
+                            "id": 100127, 
+                            "name": "It's me", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "J", 
+                    "items": [
+                        {
+                            "id": 2032, 
+                            "name": "俊宝GIMBORN", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "K", 
+                    "items": [
+                        {
+                            "id": 104, 
+                            "name": "凯久K9 Super Health", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 1306, 
+                            "name": "克劳德医生Dr.Clouders", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "L", 
+                    "items": [
+                        {
+                            "id": 428, 
+                            "name": "乐宝LeBo", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "M", 
+                    "items": [
+                        {
+                            "id": 186, 
+                            "name": "麦德氏", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 830, 
+                            "name": "MAG", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100129, 
+                            "name": "美科滋makeeasy", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 330, 
+                            "name": "蒙贝monbab", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 1657, 
+                            "name": "猫殿下Cature", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100095, 
+                            "name": "MeatyWay", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "N", 
+                    "items": [
+                        {
+                            "id": 1201, 
+                            "name": "纽牌Health-Nu", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "P", 
+                    "items": [
+                        {
+                            "id": 777, 
+                            "name": "菩施康Pusuke", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100007, 
+                            "name": "PetsBuddy", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "Q", 
+                    "items": [
+                        {
+                            "id": 1000, 
+                            "name": "强生宠儿JSPET", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 1190, 
+                            "name": "启贝KeePet", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "S", 
+                    "items": [
+                        {
+                            "id": 73, 
+                            "name": "世佳Snausags", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 1515, 
+                            "name": "施德维特cdVet", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "T", 
+                    "items": [
+                        {
+                            "id": 2073, 
+                            "name": "TROY", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "W", 
+                    "items": [
+                        {
+                            "id": 235, 
+                            "name": "维斯康VitsCan", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 37, 
+                            "name": "卫仕NOURSE", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 100117, 
+                            "name": "wowo", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 254, 
+                            "name": "维克Virbac", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "X", 
+                    "items": [
+                        {
+                            "id": 71, 
+                            "name": "新宠之康", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 954, 
+                            "name": "先牧仕PIOMOS", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 205, 
+                            "name": "小宠", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "Y", 
+                    "items": [
+                        {
+                            "id": 45, 
+                            "name": "医仕高", 
+                            "checked": 0
+                        }
+                    ]
+                }, 
+                {
+                    "letter": "Z", 
+                    "items": [
+                        {
+                            "id": 2079, 
+                            "name": "Z-PET", 
+                            "checked": 0
+                        }, 
+                        {
+                            "id": 1109, 
+                            "name": "至宠QUEENS PET", 
+                            "checked": 0
+                        }
+                    ]
+                }
+            ], 
+            "hot_rows": [
+                {
+                    "id": "0", 
+                    "name": "全部", 
+                    "checked": 1
+                }, 
+                {
+                    "id": 186, 
+                    "name": "麦德氏", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 829, 
+                    "name": "谷登GOLDEN", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 58, 
+                    "name": "宠儿香", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 235, 
+                    "name": "维斯康VitsCan", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 428, 
+                    "name": "乐宝LeBo", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 114, 
+                    "name": "BOTH", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1101, 
+                    "name": "安贝AUSPICE", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 37, 
+                    "name": "卫仕NOURSE", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 71, 
+                    "name": "新宠之康", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2087, 
+                    "name": "安灏AnhooVet", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 36, 
+                    "name": "发育宝", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 45, 
+                    "name": "医仕高", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 777, 
+                    "name": "菩施康Pusuke", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 830, 
+                    "name": "MAG", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 954, 
+                    "name": "先牧仕PIOMOS", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1000, 
+                    "name": "强生宠儿JSPET", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1201, 
+                    "name": "纽牌Health-Nu", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2079, 
+                    "name": "Z-PET", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100022, 
+                    "name": "盖夫CAREGIVER", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100117, 
+                    "name": "wowo", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 73, 
+                    "name": "世佳Snausags", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 104, 
+                    "name": "凯久K9 Super Health", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 380, 
+                    "name": "红狗RedDog", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2032, 
+                    "name": "俊宝GIMBORN", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2046, 
+                    "name": "贝乐芙BELOVED", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2083, 
+                    "name": "倍贝宠 Pet Baby", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100127, 
+                    "name": "It's me", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100129, 
+                    "name": "美科滋makeeasy", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 43, 
+                    "name": "湃特安琪儿", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 205, 
+                    "name": "小宠", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 254, 
+                    "name": "维克Virbac", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 330, 
+                    "name": "蒙贝monbab", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 846, 
+                    "name": "艾贝儿", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1109, 
+                    "name": "至宠QUEENS PET", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1190, 
+                    "name": "启贝KeePet", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1306, 
+                    "name": "克劳德医生Dr.Clouders", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1515, 
+                    "name": "施德维特cdVet", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 1657, 
+                    "name": "猫殿下Cature", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2044, 
+                    "name": "海瑞特HARRIET", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2073, 
+                    "name": "TROY", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100007, 
+                    "name": "PetsBuddy", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100095, 
+                    "name": "MeatyWay", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100119, 
+                    "name": "多啦小萌", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 100361, 
+                    "name": "拜卡", 
+                    "checked": 0
+                }
+            ]
+        }, 
+        {
+            "is_quick": 1, 
+            "name": "商品来源", 
+            "varname": "real_wid_sign", 
+            "rows": [
+                {
+                    "id": 0, 
+                    "name": "全部", 
+                    "checked": 1
+                }, 
+                {
+                    "id": 1, 
+                    "name": "国产", 
+                    "checked": 0
+                }, 
+                {
+                    "id": 2, 
+                    "name": "保税", 
+                    "checked": 0
+                }
+            ]
+        }
+    ], 
+    "recommend_screen": [ ], 
+    "default_params": [
+        {
+            "name": "search_site", 
+            "value": ""
+        }, 
+        {
+            "name": "hide_recommend", 
+            "value": 1
+        }, 
+        {
+            "name": "pet_arg", 
+            "value": "dog"
+        }
+    ], 
+    "searchbar_params": [
+        {
+            "name": "search_site", 
+            "value": ""
+        }
+    ], 
+    "sort_rank": [
+        {
+            "title": "默认", 
+            "type": "default", 
+            "list": [
+                {
+                    "item": "默认排序", 
+                    "value": "def_desc", 
+                    "checked": 1, 
+                    "short_name": "默认"
+                }, 
+                {
+                    "item": "按人气", 
+                    "value": "views_desc", 
+                    "checked": 0, 
+                    "short_name": "人气"
+                }, 
+                {
+                    "item": "最新上架", 
+                    "value": "lastupdate_desc", 
+                    "checked": 0, 
+                    "short_name": "最新"
+                }, 
+                {
+                    "item": "按评论", 
+                    "value": "replys_desc", 
+                    "checked": 0, 
+                    "short_name": "评论"
+                }
+            ]
+        }, 
+        {
+            "title": "销量", 
+            "type": "sold", 
+            "list": [
+                {
+                    "item": "销量", 
+                    "value": "sold_desc", 
+                    "checked": 0, 
+                    "short_name": "销量"
+                }
+            ]
+        }, 
+        {
+            "title": "价格", 
+            "type": "price", 
+            "list": [
+                {
+                    "item": "价格升", 
+                    "value": "price_asc", 
+                    "checked": 0, 
+                    "short_name": "价格升"
+                }, 
+                {
+                    "item": "价格降", 
+                    "value": "price_desc", 
+                    "checked": 0, 
+                    "short_name": "价格降"
+                }
+            ]
+        }
+    ], 
+    "pet_type_recommend": [ ], 
+    "sc_data": [
+        {
+            "key": "Brand", 
+            "value": "0"
+        }, 
+        {
+            "key": "Category", 
+            "value": "413"
+        }, 
+        {
+            "key": "Linkid", 
+            "value": "0"
+        }
+    ], 
+    "keyword": "", 
+    "alert_target": [
+        {
+            "text": "我知道了", 
+            "target": ""
+        }
+    ]
+}

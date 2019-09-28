@@ -17,19 +17,19 @@ export class Show extends Component {
                                     <li
                                         style={{ display: "flex", flexDirection: "column", alignItems: "center", width: v.title === "热门品牌" ? "50%" : "30%", height: "100px" }}
                                         onClick={() => {
-                                            if (v.title === "热门品牌") {
-                                                if (item.target.mode === "brand_homepage") {
-                                                    console.log(item.target.param);
-                                                    history.push(`/goodsstore/${item.target.param}`)
-                                                } else {
-                                                    console.log(item.target.param);
-                                                    history.push(`/goodslist/${item.target.param}`)
-                                                }
-                                            } else {
-                                                console.log(item.id_param)
-                                                history.push(`/goodslist/${item.id_param}`)
-                                            }
-
+                                            // if(v.title==="热门品牌"){
+                                            //     if(item.target.mode==="brand_homepage"){
+                                            //         console.log(item.target.param);
+                                            //         history.push(`/goodsstore/${item.target.param}`)
+                                            //     }else{
+                                            //         console.log(item.target.param);
+                                            //         history.push(`/goodslist/${item.target.param}`)
+                                            //     }
+                                            // }else{
+                                            //     console.log(item.id_param)
+                                            //     history.push(`/goodslist/${item.id_param}`)
+                                            // }
+                                            history.push(`/goodslist`)
                                         }}
                                         key={item.name}>
                                         {

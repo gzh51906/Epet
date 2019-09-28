@@ -4,6 +4,9 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Tabbar from './pages/Tabbar'
 import Cart from './pages/Cart'
 import Notfound from './pages/Notfound'
+import Details from './pages/Details'
+import Goodslistl from './pages/Goodslistl'
+
 import Img from './pages/Mine/img'
 import Login from './pages/login'
 import Reg from './pages/reg'
@@ -23,7 +26,8 @@ class App extends Component {
           <Route path='/goodsstore/:id' component={Goodsstore} />
           <Route path='/goodslist/:id' component={Goodslist} />
           <Route path="/notfound" component={Notfound} />
-
+          <Route path="/details/:id" component={Details} /> 
+          <Route path="/Goodslistl" component={Goodslistl} /> 
           <Redirect from="/" to="/tabbar/home" exact />
           <Redirect from="/home" to="/tabbar/home" exact />
           <Redirect from="/list" to="/tabbar/list" exact />
