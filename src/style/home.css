@@ -16,6 +16,11 @@
     margin: 0
 }
 
+.home li {
+    height: auto;
+    line-height: 16px;
+}
+
 .home .home_head {
     position: fixed;
     top: 0;
@@ -125,11 +130,12 @@
 .home .daily_2 li {
     float: left;
     width: 50%;
-    text-align: center
+    text-align: center;
 }
 
 .home .daily ul {
     margin-top: 15px;
+
 }
 
 .home .daily ul li img {

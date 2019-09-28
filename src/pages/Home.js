@@ -159,7 +159,7 @@ class Home extends Component {
                                     this.state.data0.map(val => (
                                         <a
                                             key={val}
-                                            // href="http://www.alipay.com"
+                                            href="#"
                                             style={{ display: 'inline-block', width: '100%', height: this.state.imgHeight }}
                                         >
                                             <img
@@ -296,7 +296,7 @@ class Home extends Component {
                                             <img style={{ height: 19, marginTop: 1.5 }} src={val.src1} alt="" />
                                             <img style={{ height: 22 }} src="https://img2.epetbar.com/nowater/2018-10/18/18/01c98c8320c7f1567ac409a7a847607d.png" alt="" />
                                         </div>
-                                        <div style={{ margin: "0 10px", boxShadow: '0px 5px 12.5px 0px rgba(0,0,0,0.1)' }}>
+                                        <div style={{ margin: "0 10px", boxShadow: '0px 5px 12.5px 0px rgba(0,0,0,0.1)', borderRadius: 15 }}>
                                             <div style={{ position: "relative" }}>
                                                 <img style={{ width: "100%", borderRadius: 15 }} src={val.src2} alt="" />
                                                 <img style={{ width: "100%", position: "absolute", bottom: 0, left: 0 }}
@@ -345,11 +345,11 @@ class Home extends Component {
                                                     }}
                                                 >
                                                     {val.obj.map(ele => (
-                                                        <li key={ele + '1'}>
+                                                        <div key={ele + '1'}>
                                                             <img className="dogFood_img" src={ele.src} alt="" />
-                                                            <div>{ele.price != undefined ? '￥' : ''}{ele.price}</div>
-                                                            <del>{ele.oldPrice != undefined ? '￥' : ''}{ele.oldPrice}</del>
-                                                        </li>
+                                                            <div>{ele.price !== undefined ? '￥' : ''}{ele.price}</div>
+                                                            <del>{ele.oldPrice !== undefined ? '￥' : ''}{ele.oldPrice}</del>
+                                                        </div>
                                                     ))}
                                                 </Carousel>
                                             </ul>
@@ -361,17 +361,17 @@ class Home extends Component {
                             <div style={{ margin: "0 5px" }}>
                                 <img style={{ height: 19, marginBottom: 19 }} src=" https://img2.epetbar.com/nowater/2018-10/18/20/3fbb022a3225b959f51312c47f378016.png" alt="" />
                                 {
-                                    this.state.data9.map(val => (
-                                        <div className='flex' style={{ marginBottom: 10 }} >
+                                    this.state.data9.map((val, index) => (
+                                        <div className='flex' style={{ marginBottom: 10 }} key={index} >
                                             {
-                                                val.map(ele => (<div style={{ padding: '0 5px', width: '50%' }}>
-                                                    <div className={ele.src ? 'guessYouLike_goods' : ""}>
+                                                val.map(ele => (<div style={{ padding: '0 5px', width: '50%' }} key={ele.title}>
+                                                    <div className={ele.src ? 'guessYouLike_goods' : ""} >
                                                         <img style={{ width: '100%' }} src={ele.src} alt="" />
                                                         <div className="guessYouLike_title">
                                                             {ele.title}
                                                         </div>
                                                         <div className="guessYouLike_price">
-                                                            {ele.price != undefined ? '￥' : ''}{ele.price}
+                                                            {ele.price !== undefined ? '￥' : ''}{ele.price}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -388,6 +388,7 @@ class Home extends Component {
             </>
         )
     }
-}
 
+
+}
 export default Home

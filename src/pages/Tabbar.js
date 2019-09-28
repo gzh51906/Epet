@@ -88,7 +88,8 @@ class Tabber extends Component {
                             key="List"
                             // badge={'new'}
                             // selected={this.state.selectedTab === 'redTab'}
-                            selected={this.state.selectedTab === '/tabbar/list'}
+                            selected={this.state.selectedTab.includes('/tabbar/list')}
+                            //includes()包括这个东西
 
                             onPress={() => {
                                 this.setState({
@@ -120,7 +121,7 @@ class Tabber extends Component {
                             key="Cart"
                             // dot
                             // selected={this.state.selectedTab === 'greenTab'}
-                            selected={this.state.selectedTab === ' /tabbar/cart'}
+                            selected={this.state.selectedTab.includes(' /tabbar/cart')}
 
                             onPress={() => {
                                 this.setState({
