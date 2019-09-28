@@ -1,0 +1,61 @@
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1569163628,
+    "hash": "",
+    "epet_site": "epet",
+    "topadv": {},
+    "show_history": 0,
+    "cate_list": [
+        {
+            "title": "出游洗澡",
+            "rigth_img": {
+                "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+                "target": {
+                    "mode": "goods_list",
+                    "param": "cateid:4334"
+                },
+                "img_size": "138x30"
+            },
+            "type": 0,
+            "flag_icon": "",
+            "list": [
+                {
+                    "id_param": "cateid_4147",
+                    "name": "专用香波",
+                    "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/ec484631ffe713596eebce2797a8b21f.jpg"
+                },
+                {
+                    "id_param": "cateid_4151",
+                    "name": "日常洗护",
+                    "photo": "https://img2.epetbar.com/nowater/2018-07/18/16/57b2254d23adfd82a25a2f65c6adc789.jpg"
+                },
+                {
+                    "id_param": "cateid_3210",
+                    "name": "免洗干洗",
+                    "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/e5197ce68f598bfaa20cda64460fb26b.jpg"
+                },
+                {
+                    "id_param": "cateid_4182",
+                    "name": "洗澡工具",
+                    "photo": "https://img2.epetbar.com/nowater/2016-02/18/16/365564368d9b40cca9833adafb6ed63f.jpg"
+                }
+            ]
+        }
+    ],
+    "sensor": {
+        "page_type": "分类-分类",
+        "page_pam": "出游洗澡",
+        "big_type": "狗狗"
+    },
+    "list_flag": 1,
+    "alert_target": [
+        {
+            "text": "我知道了",
+            "target": ""
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1569163171,
+    "hash": "",
+    "epet_site": "epet",
+    "topadv": {},
+    "show_history": 0,
+    "cate_list": [
+        {
+            "title": "狗狗主粮",
+            "rigth_img": {
+                "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+                "target": {
+                    "mode": "goods_list",
+                    "param": "cateid:5"
+                },
+                "img_size": "138x30"
+            },
+            "type": 0,
+            "flag_icon": "",
+            "list": [
+                {
+                    "id_param": "cateid_7",
+                    "name": "进口狗粮",
+                    "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+                },
+                {
+                    "id_param": "cateid_3555",
+                    "name": "国产狗粮",
+                    "photo": "https://img2.epetbar.com/nowater/2018-08/14/21/87aa3e41aa86317af010c6b1af29064f.jpg"
+                },
+                {
+                    "id_param": "cateid_4307",
+                    "name": "冻干狗粮",
+                    "photo": "https://img2.epetbar.com/nowater/2017-09/01/16/4e3455a75bc8d75be71816e51b917103.jpg"
+                },
+                {
+                    "id_param": "cateid_3554",
+                    "name": "处方狗粮",
+                    "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/3512594b71a2efd14b5c5925848d2e5a.jpg"
+                }
+            ]
+        },
+        {
+            "title": "热门品牌",
+            "rigth_img": {
+                "image": "",
+                "img_size": "",
+                "target": {}
+            },
+            "type": 2,
+            "flag_icon": "",
+            "list": [
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+                    "name": "天衡宝Natural Balance",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "82"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/upload_file_1562131788.jpg",
+                    "name": "比瑞吉Nature Bridge",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "334"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+                    "name": "牛油果AVODerm",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "20"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/upload_file_1547108120.jpg",
+                    "name": "枫树大道Maples",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "291"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+                    "name": "原始猎食渴望Orijen",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "142"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/upload_file_1562639814.jpg",
+                    "name": "伯纳天纯Pure&Natural",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "775"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/upload_file_1550814631.jpg",
+                    "name": "冠能PRO PLAN",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "14"
+                    }
+                },
+                {
+                    "logo": "https://img2.epetbar.com/brand/brandLogo/upload_file_1547015305.jpg",
+                    "name": "雷米高",
+                    "recommend": 0,
+                    "tagongyi": 0,
+                    "target": {
+                        "mode": "brand_homepage",
+                        "param": "17"
+                    }
+                }
+            ]
+        }
+    ],
+    "sensor": {
+        "page_type": "分类-分类",
+        "page_pam": "狗狗主粮",
+        "big_type": "狗狗"
+    },
+    "list_flag": 1,
+    "alert_target": [
+        {
+            "text": "我知道了",
+            "target": ""
+        }
+    ]
+}

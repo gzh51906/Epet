@@ -2,6 +2,7 @@ import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
 import commonReducer from './common';
 import mineReducer from '../pages/Mine/store';
+import listReducer from '../pages/List/store';
 
 // 引入调试工具模块
 // import { composeWithDevTools } from 'redux-devtools-extension';
@@ -12,7 +13,8 @@ const composeEnhancers =
 
 const rootReducer = combineReducers({
     mine: mineReducer,
-    common: commonReducer
+    common: commonReducer,
+    list: listReducer
 });
 
 
