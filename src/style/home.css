@@ -1,5 +1,6 @@
 .home {
     touch-action: none;
+    background: white
 }
 
 .home .flex {
@@ -159,6 +160,8 @@
 .home .dogFood {
     border-radius: 15px;
     padding: 20px 0;
+    width: 100%;
+    margin: 0;
 }
 
 .home .dogFood li {

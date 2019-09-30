@@ -29,7 +29,7 @@ export class Show extends Component {
                                             //     console.log(item.id_param)
                                             //     history.push(`/goodslist/${item.id_param}`)
                                             // }
-                                            history.push(`/goodslist`)
+                                            history.push(`/Goodslistl`)
                                         }}
                                         key={item.name}>
                                         {

@@ -17,7 +17,9 @@ class Home extends Component {
         data9: [],    //猜你喜欢
 
     }
-
+    go = (gid) => {
+        this.props.history.push(`/details/${gid}`)
+    }
     componentDidMount() {
         setTimeout(() => {
             this.setState({
@@ -98,12 +100,6 @@ class Home extends Component {
                 ],
             });
         }, 100);
-    }
-
-
-
-
-    render() {
         onscroll = () => {//监听滚动
             let head = document.getElementById('home_head')
             if (head) {
@@ -127,10 +123,17 @@ class Home extends Component {
 
                 }
             }
-        }
+        };
+    }
+
+
+
+
+    render() {
+
         return (
             <>
-                < div className="flex-container home " >
+                < div className="flex-container home" >
                     {/* head */}
                     <Flex >
                         <Flex.Item className="home_head" id="home_head">
@@ -365,7 +368,7 @@ class Home extends Component {
                                         <div className='flex' style={{ marginBottom: 10 }} key={index} >
                                             {
                                                 val.map(ele => (<div style={{ padding: '0 5px', width: '50%' }} key={ele.title}>
-                                                    <div className={ele.src ? 'guessYouLike_goods' : ""} >
+                                                    <div className={ele.src ? 'guessYouLike_goods' : ""} onClick={this.go.bind(null, ele.id)}>
                                                         <img style={{ width: '100%' }} src={ele.src} alt="" />
                                                         <div className="guessYouLike_title">
                                                             {ele.title}

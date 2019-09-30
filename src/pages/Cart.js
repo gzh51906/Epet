@@ -1,84 +1,137 @@
 import React, { Component } from "react"
-import { Icon } from "antd-mobile"
+import { Icon, Button, Toast, Checkbox, Modal } from "antd-mobile"
+import axios from '../../node_modules/axios';
+import url from '../axios'
 import '../style/cart.css'
+const alert = Modal.alert;
+const CheckboxItem = Checkbox;
 class Cart extends Component {
     state = {
-        val: 1
+        data: [],
+        val: 1,
+    }
+    showToast() {
+        Toast.info('结算成功,由于是测试所以不清空购物车', 1);
+    }
+    //input的加减改变
+    add = async (num, gid, index, e) => {
+        num = e.target.value = this.state.data[index].num = num + 1
+        this.setState(({
+            // val: this.state.val + 1,
+            totalPrice: this.state.data.reduce((prev, item) => prev + item.num * 1 * item.price, null)
+        }))
+        axios.patch(url + '/Egoods/cart', { num, gid })
 
     }
-    onChange = (val) => {
-        this.setState({ val });
+    reduce = async (num, gid, index, e) => {
+        if (num * 1 > 1) {
+            num = num * 1 - 1;
+        }
+        e.target.value = this.state.data[index].num = num
+        this.setState({
+            // val: this.state.val + 1,
+            totalPrice: this.state.data.reduce((prev, item) => prev + item.num * 1 * item.price, null)
+        })
+        axios.patch(url + '/Egoods/cart', { num, gid })
+
+    }
+    change = (gid, index, e) => {
+        if (!e.target.value || e.target.value < 1) {
+            e.target.value = 1
+        }
+        let num = this.state.data[index].num = e.target.value * 1
+        this.setState({
+            // val: this.state.val + 1,
+            totalPrice: this.state.data.reduce((prev, item) => prev + item.num * 1 * item.price, null)
+        })
+        axios.patch(url + '/Egoods/cart', { num, gid })
+
+
+    }
+    del = async (gid, index) => { //删除
+        this.state.data.splice(index, 1) //删除调对应的数据
+        Toast.info('删除成功', 1);
+        this.setState({
+            totalPrice: this.state.data.reduce((prev, item) => prev + item.num * 1 * item.price, null)
+        })
+        axios.post(url + '/Egoods/cart', { gid })
+
+    }
+    clear = () => {
+        this.setState({
+            // val: this.state.val + 1,
+            data: [],
+            totalPrice: null
+        })
+        axios.post(url + '/Egoods/cart').then(res => {
+            console.log(res)
+        })
     }
 
+    async componentDidMount() {
+        let { data: { data } } = await axios.get(url + '/Egoods/cart')
+        this.setState({
+            data,
+            totalPrice: data.reduce((prev, item) => prev + item.num * 1 * item.price, null)//商品总价。prev之前的总数，从null开始算，就是没有级不显示
+
+        })
+
+
+    }
     render() {
         return (
             <>
                 <div className="cart">
-                    <div className="head ">
-                        <Icon type='left'          //返回
-                            style={{ float: "left", marginTop: 15 }}
-                            onClick={() => {
-                                this.props.history.go(-1)
-                            }} />
+                    {/* head */}
+                    <div className="head">
+                        <Icon type='left' className="fl mt" onClick={() => { this.props.history.go(-1) }} />  {/*返回 */}
                         <span>购物车</span>
+                        <Icon className="fr icon" onClick={() => { this.props.history.push('/home') }} />{/*返回home*/}
                     </div>
-                    <div style={{ marginTop: 50 }} ></div>
-                    <div className="clear margin " >
-                        <div className="fl left">
-                            <input type="checkbox" className="vertical" />
-                            <img src="https://img2.epetbar.com/2018-12/27/14/2b053cad88783e3faf750901d9b7b1a4.jpg@!200w-b" className="image" alt=""></img>
-                        </div>
-                        <div className="fl right">
-                            <p className="c333" >
-                                <span >比乐 低敏无谷配方子母犬原味奶糕粮1.5kg</span>
-                            </p>
-                            <b className="mr3" >
-                                <span className="ft12" >¥</span>
-                                <span className="ft15 bold" >149.00</span>
-                            </b>
-                            <div className="buynum-wrap  fr" >
-                                <button className="fl lrb lb" >─</button>
-                                <input className="fl buynum-text " type="center" />
-                                <button className="fl lrb rb" >+</button>
-                            </div>
-                            <div className="clear fr">
-                                <button className="btn" >删除</button>
-                            </div>
-                        </div>
-                    </div>
+                    {/* content */}
+                    <div style={{ padding: '50px 0' }}>
+                        {
+                            this.state.data.map((val, index) => (
+                                < div key={val.price} style={{ padding: '0 15px' }} id={index}>
+                                    <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }}>
+                                        <CheckboxItem size="small" style={{ marginRight: 5, marginTop: 30 }} />
+                                        <img style={{ height: 85, width: 85, marginRight: 15, border: '1px solid #e1e1e1' }} src={val.src} alt="" />
+                                        <div style={{ lineHeight: 1, flex: 1 }}>
+                                            <div style={{ marginBottom: 8 }}>{val.title}</div>
+                                            <div style={{ color: '#FF6E27' }}>¥{val.price} </div>
+                                            <div onClick={this.del.bind(null, val.gid, index)} className="fr" style={{ color: '#FF6E27', fontSize: 12, marginRight: 13 }}>删除</div>
+                                            <div>
+                                                <button onClick={this.reduce.bind(null, val.num, val.gid, index)} style={{ width: 15, marginTop: 16 }}>-</button>
+                                                <input onChange={this.change.bind(null, val.gid, index)} type="number" value={val.num} style={{ width: 50, textAlign: 'center' }} />
+                                                <button onClick={this.add.bind(null, val.num, val.gid, index)} style={{ width: 15, marginTop: 16 }}>+</button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                    <div className="clear margin " >
-                        <div className="fl left">
-                            <input type="checkbox" className="vertical" />
-                            <img src="https://img2.epetbar.com/2018-12/27/14/2b053cad88783e3faf750901d9b7b1a4.jpg@!200w-b" className="image" alt=""></img>
-                        </div>
-                        <div className="fl right">
-                            <p className="c333" >
-                                <span >比乐 低敏无谷配方子母犬原味奶糕粮1.5kg</span>
-                            </p>
-                            <b className="mr3" >
-                                <span className="ft12" >¥</span>
-                                <span className="ft15 bold" >149.00</span>
-                            </b>
-                            <div className="buynum-wrap  fr" >
-                                <button className="fl lrb lb" >─</button>
-                                <input className="fl buynum-text " type="center" />
-                                <button className="fl lrb rb" >+</button>
-                            </div>
-                            <div className="clear fr">
-                                <button className="btn" >删除</button>
-                            </div>
-                        </div>
-                    </div>
+                                </div>
+
+                            ))
+                        }
+                        <span onClick={() =>
+                            alert('删除', '您确定清空吗', [
+                                { text: '取消', onPress: () => console.log('cancel') },
+                                { text: '确定', onPress: () => { return this.clear() } },
+                            ])
+                        } style={{ fontSize: 12, color: '#cccccc', textAlign: 'left', padding: 10, paddingBottom: 60 }}>清空购物车</span>
 
 
-                    <div style={{ marginBottom: 50 }} ></div>
+                    </div>
+                    {/* footer */}
+
                     <div className="footer">
-                        <input type="checkbox" />
-                        <span >总额：</span>
-                        <button className="btn fr">结算</button>
+
+                        <span className="verticalAlign fl margin1">
+                            <CheckboxItem size="small" style={{ margin: '0px 5px' }} onChange={() => { }} />总额：{this.state.totalPrice}
+                        </span>
+                        <Button className="verticalAlign fr margin2" type="warning" inline size="small" onClick={this.showToast}>结算</Button>
                     </div>
                 </div>
+
             </>
         )
     }
@@ -86,3 +139,4 @@ class Cart extends Component {
 }
 
 export default Cart;
+
