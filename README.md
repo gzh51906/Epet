@@ -1,68 +1,145 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 项目分工说明
 
-## Available Scripts
+## 项目名称：e宠商城
 
-In the project directory, you can run:
+## 项目目录说明
 
-### `npm start`
+- **首页，详情页，列表页，购物车，登录注册，用户信息**
+- 移动端页面**github**地址：<https://github.com/gzh51906/Epet>
+- 后端管理系统**github**地址：<https://github.com/gzh51906/EpetK>
+- 移动端上线地址：[http://47.104.103.240:1906](http://47.104.103.240:1906/)
+- 官网：<https://wap.epet.com/app/>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 团队成员
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- 组长：刘钦博，组员：罗诗华，蒋宽，兰青
 
-### `npm test`
+- ### 负责模块
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ##### 每个人都是页面加功能
 
-### `npm run build`
+- 刘钦博：**首页，购物车**
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 罗诗华：**详情页，分类页**
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- 蒋宽：**登录注册，我的页面**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 兰青：**后端管理系统**
 
-### `npm run eject`
+## 项目页面截图
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![home](./home.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![list](./list.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![order](./order.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![detail](./detail.png)
 
-## Learn More
+![cart](./cart.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## tree 树
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+|-- README.md
 
-### Code Splitting
+|-- config-overrides.js
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+|-- goodslist.json
+|-- package-lock.json
+|-- package.json
+|-- public
+|   |-- api
+|   |   |-- categorys
+|   |   |   |-- 1.json
+|   |   |   |-- 10.json
+|   |   |   |-- 11.json
+|   |   |   |-- 12.json
+|   |   |   |-- 13.json
+|   |   |   |-- 14.json
+|   |   |   |-- 2.json
+|   |   |   |-- 3.json
+|   |   |   |-- 4.json
+|   |   |   |-- 5.json
+|   |   |   |-- 6.json
+|   |   |   |-- 7.json
+|   |   |   |-- 8.json
+|   |   |   |-- 9.json
+|   |   |   `-- index.json
+|   |   |-- dingdan.json
+|   |   |-- mine.json
+|   |   `-- randomz.json
+|   |-- favicon.ico
+|   |-- index.html
+|   |-- logo192.png
+|   |-- logo512.png
+|   |-- manifest.json
+|   `-- robots.txt
+`-- src
+    |-- App.css
+    |-- App.js
+    |-- App.test.js
+    |-- axios
+    |   `-- index.js
+    |-- http.js
+    |-- images
+    |   `-- nav.png
+    |-- index.css
+    |-- index.js
+    |-- logo.svg
+    |-- pages
+    |   |-- Cart.js
+    |   |-- Details.js
+    |   |-- Goodslistl.js
+    |   |-- Home.js
+    |   |-- List
+    |   |   |-- component
+    |   |   |   |-- categorys.css
+    |   |   |   |-- categorys.js
+    |   |   |   |-- show.css
+    |   |   |   `-- show.js
+    |   |   |-- index.js
+    |   |   `-- store
+    |   |       |-- actiontype.js
+    |   |       |-- createaction.js
+    |   |       |-- index.js
+    |   |       `-- reducer.js
+    |   |-- Mine
+    |   |   |-- benner.jpg
+    |   |   |-- body.jpg
+    |   |   |-- component
+    |   |   |   `-- box.jsx
+    |   |   |-- img.jsx
+    |   |   |-- index.jsx
+    |   |   |-- msg.png
+    |   |   |-- set.png
+    |   |   `-- store
+    |   |       |-- actiontype.js
+    |   |       |-- createaction.js
+    |   |       |-- index.js
+    |   |       `-- reducer.js
+    |   |-- Notfound.js
+    |   |-- Tabbar.js
+    |   |-- goodslist
+    |   |   `-- index.js
+    |   |-- goodsstore
+    |   |   `-- index.js
+    |   |-- login
+    |   |   |-- bg.jpg
+    |   |   `-- index.js
+    |   `-- reg
+    |       |-- bg.jpg
+    |       `-- index.js
+    |-- redux
+    |   |-- common
+    |   |   |-- actiontype.js
+    |   |   |-- createaction.js
+    |   |   |-- index.js
+    |   |   `-- reducer.js
+    |   `-- index.js
+    |-- serviceWorker.js
+    `-- style
+        |-- base.css
+        |-- cart.css
+        |-- details.css
+        |-- goodslist.css
+        `-- home.css
